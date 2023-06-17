@@ -255,9 +255,7 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libswregistrationalgo \
-    btaudio_offload_if \
     audio.primary.sm6150 \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -266,12 +264,8 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudioparsers \
     libaudioroute_ext \
-    libhdmiedid \
-    libhfp \
     libpn553_fw \
     libqtigef \
-    libsndmonitor \
-    libspkrprot \
     libvideoutils \
     libxlog \
     com.altek.node.depurple \
