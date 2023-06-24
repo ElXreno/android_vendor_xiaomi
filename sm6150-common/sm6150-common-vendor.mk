@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-sscrpc-service.rc \
     vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
-    vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/sm6150-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
@@ -230,7 +229,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     vendor.qti.gnss@4.0-impl \
-    vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -343,7 +341,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0 \
     vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
-    vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
@@ -410,7 +407,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     audiosphere \
@@ -432,7 +428,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     qcrild \
-    vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     ims_rtp_daemon \
@@ -447,7 +442,6 @@ PRODUCT_PACKAGES += \
     pd-mapper \
     pm-proxy \
     pm-service \
-    power_off_alarm \
     qrtr-ns \
     qseecomd \
     qti \
