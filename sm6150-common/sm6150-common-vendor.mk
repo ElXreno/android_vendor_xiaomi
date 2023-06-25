@@ -204,7 +204,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.3 \
     android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
-    vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -225,35 +224,22 @@ PRODUCT_PACKAGES += \
     libGPreqcancel_svc \
     libQSEEComAPI \
     libcacertclient \
-    libcdfw \
-    libcdfw_remote_api \
     libcdsprpc \
     libcne \
     libcneapiclient \
     libcneoplookup \
     libconfigdb \
     libcpion \
-    libdataitems \
     libdpmqmihal \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
-    libgdtap \
     libhdcpsrm \
     libhexagon_nn_stub \
     libhta_hexagon_runtime \
-    libizat_client_api \
-    libizat_core \
     libjnihelper \
     libkeymasterdeviceutils \
     libkeymasterutils \
-    liblbs_core \
-    libloc_api_v02 \
-    libloc_socket \
-    liblocationservice \
-    liblocationservice_glue \
-    liblowi_client \
-    liblowi_wifihal \
     liblqe \
     libmdsprpc \
     libminkdescriptor \
@@ -270,7 +256,6 @@ PRODUCT_PACKAGES += \
     libpdnotifier \
     libperipheral_client \
     libqcbor \
-    libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
@@ -294,7 +279,6 @@ PRODUCT_PACKAGES += \
     libwqe \
     libwvhidl \
     libxml \
-    libxtadapter \
     libwvdrmengine \
     qcrild_librilutils \
     qtibus \
@@ -309,14 +293,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.3 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.gnss@1.0 \
-    vendor.qti.gnss@1.1 \
-    vendor.qti.gnss@1.2 \
-    vendor.qti.gnss@2.0 \
-    vendor.qti.gnss@2.1 \
-    vendor.qti.gnss@3.0 \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.gnss@4.0 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
@@ -331,7 +307,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
@@ -390,7 +365,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@4.0-service \
     adpl \
     adsprpcd \
     cdsprpcd \
@@ -411,8 +385,6 @@ PRODUCT_PACKAGES += \
     imsqmidaemon \
     imsrcsd \
     irsc_util \
-    loc_launcher \
-    lowi-server \
     netmgrd \
     nv_mac \
     pd-mapper \
@@ -422,8 +394,6 @@ PRODUCT_PACKAGES += \
     qseecomd \
     qti \
     rmt_storage \
-    slim_daemon \
     tftp_server \
     time_daemon \
-    vppservice \
-    xtra-daemon
+    vppservice
